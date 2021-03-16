@@ -1,20 +1,20 @@
-<div class="container fullsc">
-    <div class="login-box">
-        <h1>CalendApp</h1>
-        <form action="App/Controller/login.php" method="POST">
-            <input type="text" name="userId" id="login" placeholder="E-mail">
-            <input type="password" name="passwd" id="login" placeholder="Senha">
-            <?php 
-            if(isset($_GET['error'])){
-                ?>
-                    <p class="error">Erro ao fazer login</p>
-                <?
-            }
-            
+<div class="login-box">
+    <h1>CalendApp</h1>
+    <form action="App/Controller/login.php" method="POST">
+        <input type="text" name="userId" id="userId" placeholder="E-mail">
+        <!-- <br> -->
+        <input type="password" name="passwd" id="passwd" placeholder="Senha">
+        <?php 
+        if(isset($_GET['error'])){
             ?>
-            <button type="submit">Entrar</button>
-        </form>
+                <p class="error">Erro ao fazer login</p>
+            <?
+        }
+        ?>
+        <button type="submit">Entrar</button>
+    </form>
+    <div class="links">
+        <a href="">Não possui uma conta?</a>    
         <a href="">Esqueci minha senha</a>
-        <a href="">Não possui uma conta?</a>
     </div>
-</div>
+</div><!-- login-box -->

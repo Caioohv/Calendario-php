@@ -1,0 +1,84 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@100;400&family=Rubik:wght@300&display=swap');
+/* Using fonts:
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif; 
+*/
+
+/* Login Screen */
+.login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-top: 20vh;
+    background-color: var(--white);
+    padding: 2vh 2vw;
+    border-radius: 2rem;
+}
+
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-box h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+    color: var(--color-primary-light);
+    
+}
+
+.login-box input{
+    border: none;
+    border-radius: 3rem;
+    border-bottom: 1px solid var(--cinza);
+
+    padding: 1.5vh 1.5vw;
+    margin: 0.7vh 0.7vw;
+    
+    width: 160%;
+    
+    background-color: var(--color-background);
+    color: var(--color-primary-light);
+    transition: all 0.3s ease;
+
+}
+
+.login-box button{
+    margin-top: 3vh;
+    border: none;
+    border-radius: 3rem;
+    border-bottom: 1px solid var(--cinza);
+
+    padding: 1.5vh 1.5vw;
+    margin: 0.7vh 0.7vw;
+    
+    width: 50%;
+    
+    background-color: var(--color-primary-light);
+    color: var(--color-background);
+    transition: all 0.3s ease;
+}
+.login-box button:hover{
+    background-color: var(--color-background);
+    color: var(--color-primary-light);
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+.links a{
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
