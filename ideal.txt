@@ -1,0 +1,7 @@
+O usuário poderá cadastrar eventos com os seguintes atributos:
+
+Nome
+Descrição
+Local
+Hora de início
+Hora de Finalização
