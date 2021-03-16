@@ -1,0 +1,44 @@
+:root{
+    /* Colors */
+    /* Background */
+    --color-background: #f0f0f7;
+    /* Primary */
+    --color-primary: #04d361;
+    --color-primary-light: #09e06a;
+    --color-primary-lighter: #0ef375;
+    --color-primary-dark: #04bf58;
+    --color-primary-darker: #01aa4d;
+
+    /* Secondary */
+    --color-secondary: #169aec;
+    --color-secondary-dark: #0792EB;
+    --color-secondary-darker: #0685D4;
+
+    /* Bases */
+    --color-1: #139FA1;
+    --color-1-darker: #2E6D6E;
+    --color-2: #D93B5B;
+    --color-2-darker: #A11377;
+
+    /* Font */
+    font-size: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+}
+
+body{
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
