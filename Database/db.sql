@@ -17,6 +17,7 @@ create table events(
 );
 
 create table user(
-    email varchar(40) primary key,
+    userId varchar(40) primary key,
+    username varchar(80),
     passwd varchar(40)
-)
+);

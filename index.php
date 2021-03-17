@@ -10,11 +10,24 @@
     <?php
 
         if(isset($_SESSION['userId'])){
-            include 'App/Screens/calendar.php';
-        }else{
-            include 'App/Screens/login.php';
-        }
+            
+            if(isset($_GET['page'])){
 
+            }else{
+                include 'App/Screens/calendar.php';
+            }
+
+        }else{
+            if(isset($_GET['page'])){
+                if($_GET['page'] == "register"){
+                    include 'App/Screens/register.php';
+                }
+            }else{
+                include 'App/Screens/login.php';
+            }
+            
+        }
+        
     ?>
 
 </body>

@@ -1,4 +1,4 @@
-<div class="login-box">
+<div class="form-box">
     <h1>CalendApp</h1>
     <form action="App/Controller/login.php" method="POST">
         <input type="text" name="userId" id="userId" placeholder="E-mail">
@@ -14,7 +14,7 @@
         <button type="submit">Entrar</button>
     </form>
     <div class="links">
-        <a href="">Não possui uma conta?</a>    
-        <a href="">Esqueci minha senha</a>
+        <a href="?page=register">Não possui uma conta?</a>    
+        <a href="?page=resetPassword">Esqueci minha senha</a>
     </div>
-</div><!-- login-box -->
+</div><!-- form-box -->
