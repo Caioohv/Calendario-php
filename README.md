@@ -1,4 +1,4 @@
-# Calendario-php
+# CalendApp
 
 
 ### Sobre o projeto
